@@ -5,77 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
-    <style>
-        .orangegrad{
-            background:orange;
-            background:linear-gradient(top,#fb0,#f50);
-            background:-moz-linear-gradient(top,#fb0,#f50);
-            background: -webkit-linear-gradient(top,#fb0,#f50);
-            background: -o-linear-gradient(top,#fb0,#f50);
-            background: -ms-linear-gradient(top,#fb0,#f50);
-        }
-        .yellowred{
-            background:orange;
-            background:linear-gradient(top,red,yellow);
-            background:-moz-linear-gradient(top,red,yellow);
-            background: -webkit-linear-gradient(top,red,yellow);
-            background: -o-linear-gradient(top,red,yellow);
-            background: -ms-linear-gradient(top,red,yellow);
-        }
-        .blueyellowgreen{
-            background:orange;
-            background:linear-gradient(top,blue,yellowgreen);
-            background:-moz-linear-gradient(top,blue,yellowgreen);
-            background: -webkit-linear-gradient(top,blue,yellowgreen);
-            background: -o-linear-gradient(top,blue,yellowgreen);
-            background: -ms-linear-gradient(top,blue,yellowgreen);
-        }
-        .box{
-            margin-bottom: 10px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 2em;
-            text-align: center;
-            padding: 10px;
-            width: 380px;
-            height: 75px;
-            border: 10px, solid #006;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>denisboisvert.net</h1>
-        
-    </header>
 
-    <div class='yellowred'><nav>
+</head>
+<body id="index">
+    <div class="header">
+        <img src="..\images\dbnetLOGO.png" alt="LOGO">
+        <h1>denisboisvert.net</h1>
+        <!-- <h2>your journey in electronics starts here</h2> -->
+    </div>
+    <div class="menu">
         <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
         <a href="schematics.html"><i class="fa fa-pencil" aria-hidden="true"></i>Schematic Design</a>
         <a href="prototyping.html"><i class="fa fa-cog" aria-hidden="true"></i>Prototyping</a>
         <a href="pcbboards.html"><i class="fa fa-cogs" aria-hidden="true"></i>Printed Circuit Boards</a>
         <a href="coding.html"><i class="fa fa-desktop" aria-hidden="true"></i>Coding</a>
-    </nav></div>
+        <a href="#">Contact Us</a>
+    </div>
 
-    <article>
-        <div class='orangegrad'><h2>Hours of fun and frustration brings good fortune</h2></div>
+    <div class='yellowred'><h2>Hours of fun and frustration prototyping your design brings good fortune</h2></div>
         
-        <figure>
-            <img src="images\breadboarding1.jpg" alt="breadboard">
-            <figcaption>
-                closeup photo of a breadboard
-            </figcaption>
-        </figure>
-        
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eius repudiandae libero? Impedit exercitationem reprehenderit obcaecati labore praesentium ea pariatur, hic eum, quia recusandae quo! Eos ratione sed debitis, minus amet voluptas eius! Architecto quaerat aliquam blanditiis, at corrupti voluptate reiciendis magni laudantium obcaecati consequuntur eveniet error. Quidem, a ducimus.</p>
-        <p>Odit nostrum dignissimos blanditiis nesciunt! Quis repudiandae nulla reiciendis deserunt, neque et voluptatum blanditiis aperiam nam quaerat. Animi vero consequatur voluptatum autem perspiciatis perferendis maiores, odit nesciunt dolor eaque non laboriosam, in dolorem ex amet optio molestias vel saepe fugit, at nostrum magni fuga sint facere! Nihil voluptate error consequuntur.</p>
-        <div class='blueyellowgreen'><h2>Get a checklist ready, keep your schematic close at hand</h2></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur, ab veritatis quas repellendus voluptatem magnam sequi necessitatibus excepturi vero eius quae consequatur ipsum neque sapiente earum adipisci a amet nisi doloribus! Enim sunt minus excepturi itaque nostrum quaerat, corrupti, deleniti similique, delectus id ducimus asperiores quam perspiciatis vitae corporis.</p>
-        <p>Facilis accusamus sequi fugiat quas iure id quisquam ut alias, accusantium illo vero placeat doloribus, consequatur eum officia! Exercitationem doloremque aliquam magnam nemo dolore, maxime saepe soluta ipsum reprehenderit commodi dolorum sunt illo omnis aspernatur quos, eius sapiente non nulla reiciendis, amet fugiat alias odio iusto assumenda? Neque, tempora nihil?</p>
-        <p>Vel perferendis eum obcaecati debitis quaerat magnam adipisci asperiores dolores libero commodi molestiae recusandae delectus id, labore animi, eveniet totam voluptatum voluptates, rerum in quasi perspiciatis! Nobis unde ad tenetur itaque perferendis exercitationem temporibus expedita odit dolor accusantium alias fuga ex, est consectetur dicta qui modi nihil. Cum, sequi nam?</p>
-
-    </article>
+           
+    <section class="child">
+        <article class="c1"><img src="images/bboard1.jpg" alt="breadboard">
+        <p>Example of a small breadboard, big or small the size applies only to the circuit complexity. The more complex a circuit, the components needed to complete.</p></article>
+        <article class="c2"><img src="images/bboard2.jpg" alt="breadboard">
+        <p>Larger breadboards can accomodate more components and more voltage sources if needed.</p></article>
+        <article class="c3"><img src="images/breadboarding1.jpg" alt="breadboarding">
+        <p>Breadboards can accept small circuit boards and jumper wires can be used to make connections between the boards and other components.</p></article>
+        <article class="c4"><img src="images/breadboarding.jpg" alt="breadboarding">
+        <p>Once the circuit has been completed, testing can begin and rapid prototyping is achieved.</p></article>
+    </section>
+  
     <footer>
         copyright denisboisvert.net 2023
     </footer>

@@ -5,77 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css\font-awesome-4.7.0\css\font-awesome.min.css">
-    <style>
-        .orangegrad{
-            background:orange;
-            background:linear-gradient(top,#fb0,#f50);
-            background:-moz-linear-gradient(top,#fb0,#f50);
-            background: -webkit-linear-gradient(top,#fb0,#f50);
-            background: -o-linear-gradient(top,#fb0,#f50);
-            background: -ms-linear-gradient(top,#fb0,#f50);
-        }
-        .yellowred{
-            background:orange;
-            background:linear-gradient(top,red,yellow);
-            background:-moz-linear-gradient(top,red,yellow);
-            background: -webkit-linear-gradient(top,red,yellow);
-            background: -o-linear-gradient(top,red,yellow);
-            background: -ms-linear-gradient(top,red,yellow);
-        }
-        .blueyellowgreen{
-            background:orange;
-            background:linear-gradient(top,blue,yellowgreen);
-            background:-moz-linear-gradient(top,blue,yellowgreen);
-            background: -webkit-linear-gradient(top,blue,yellowgreen);
-            background: -o-linear-gradient(top,blue,yellowgreen);
-            background: -ms-linear-gradient(top,blue,yellowgreen);
-        }
-        .box{
-            margin-bottom: 10px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 2em;
-            text-align: center;
-            padding: 10px;
-            width: 380px;
-            height: 75px;
-            border: 10px, solid #006;
-        }
-    </style>
 </head>
-<body>
-    <header>
-        <h1>denisboisvert.net</h1>
-        
-    </header>
 
-    <div class='yellowred'><nav>
+<body id="index">
+    
+    <div class="header">
+        <img src="..\images\dbnetLOGO.png" alt="LOGO">
+        <h1>denisboisvert.net</h1>
+        <!-- <h2>your journey in electronics starts here</h2> -->
+        </div>
+    <div class="menu">
         <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
         <a href="schematics.html"><i class="fa fa-pencil" aria-hidden="true"></i>Schematic Design</a>
         <a href="prototyping.html"><i class="fa fa-cog" aria-hidden="true"></i>Prototyping</a>
         <a href="pcbboards.html"><i class="fa fa-cogs" aria-hidden="true"></i>Printed Circuit Boards</a>
         <a href="coding.html"><i class="fa fa-desktop" aria-hidden="true"></i>Coding</a>
-    </nav></div>
+        <a href="#">Contact Us</a>
+    </div>
 
-    <article>
-        <div class='orangegrad'><h2>Sleek style with a simple circuit board</h2></div>
+  
+        <div class='blueyellowgreen'><h2>Sleek style with a simple circuit board</h2></div>
         
-        <figure>
-            <img src="images\pcb3.jpg" alt="schematic">
-            <figcaption>
-                photo of a printed circuit board
-            </figcaption>
-        </figure>
-        
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id eius repudiandae libero? Impedit exercitationem reprehenderit obcaecati labore praesentium ea pariatur, hic eum, quia recusandae quo! Eos ratione sed debitis, minus amet voluptas eius! Architecto quaerat aliquam blanditiis, at corrupti voluptate reiciendis magni laudantium obcaecati consequuntur eveniet error. Quidem, a ducimus.</p>
-        <p>Odit nostrum dignissimos blanditiis nesciunt! Quis repudiandae nulla reiciendis deserunt, neque et voluptatum blanditiis aperiam nam quaerat. Animi vero consequatur voluptatum autem perspiciatis perferendis maiores, odit nesciunt dolor eaque non laboriosam, in dolorem ex amet optio molestias vel saepe fugit, at nostrum magni fuga sint facere! Nihil voluptate error consequuntur.</p>
-        <div class='blueyellowgreen'><h2>After prototyping success, comes time for a PCB</h2></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur, ab veritatis quas repellendus voluptatem magnam sequi necessitatibus excepturi vero eius quae consequatur ipsum neque sapiente earum adipisci a amet nisi doloribus! Enim sunt minus excepturi itaque nostrum quaerat, corrupti, deleniti similique, delectus id ducimus asperiores quam perspiciatis vitae corporis.</p>
-        <p>Facilis accusamus sequi fugiat quas iure id quisquam ut alias, accusantium illo vero placeat doloribus, consequatur eum officia! Exercitationem doloremque aliquam magnam nemo dolore, maxime saepe soluta ipsum reprehenderit commodi dolorum sunt illo omnis aspernatur quos, eius sapiente non nulla reiciendis, amet fugiat alias odio iusto assumenda? Neque, tempora nihil?</p>
-        <p>Vel perferendis eum obcaecati debitis quaerat magnam adipisci asperiores dolores libero commodi molestiae recusandae delectus id, labore animi, eveniet totam voluptatum voluptates, rerum in quasi perspiciatis! Nobis unde ad tenetur itaque perferendis exercitationem temporibus expedita odit dolor accusantium alias fuga ex, est consectetur dicta qui modi nihil. Cum, sequi nam?</p>
-
-    </article>
+     
+        <section class="child">
+            <article class="c5"><img src="images/pcb1.jpg" alt="pcb">
+            <p>A final pcb board can be extremely complex according to its functionality. Without components, only the traces are present along with the pads used to solder components to the board.</p></article>
+            <article class="c2"><img src="images/pcb2.jpg" alt="pcb">
+            <p>The printed circuit board without its components installed, we can see that the board has many layers and through-hole mounts for mounting components on the underside of the board.</p></article>
+            <article class="c3"><img src="images/pcb3.jpg" alt="pcb">
+            <p>Light shining through the PCB indicates traces on the opposite side and light shines through the holes which are used for mounting.</p></article>
+            <article class="c4"><img src="images/pcbDrawing.png" alt="pcb drawing">
+            <p>All these boards are produced by using a PCB drawing which starts as a simple schematic.</p></article>
+        </section>
+  
     <footer>
         copyright denisboisvert.net 2023
     </footer>
